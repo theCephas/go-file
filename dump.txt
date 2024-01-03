@@ -44,3 +44,14 @@ but Print needs a line breaker to have a full sentence in a single line (\n).
 	fmt.Println(str)
 
 LESSON 3
+
+Here, I am learning how to pass arrays and also use slices in golang. This made me understand the true concept of being a statically typed language.
+So technically, rather than the conventional way of using square brackets to write arrays in either javascript or python, we use curly brackets to write arrays.
+
+this is an example: var ages [3]int = [3]int{1, 2, 3}
+
+Also, to check the length of an array, we use len(), to check the length of an array. Where, the variable would be inside the bracket of len.
+
+SLICE
+I am beginning to learn how slices are used where they are used to add or remove items from an array. Slices often use arrays under the hood.
+Using the "append" function adds an item to the end of an array.
