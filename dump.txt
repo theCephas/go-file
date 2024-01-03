@@ -1,0 +1,46 @@
+LESSON 1
+
+// strings
+	// var nameOne string = "mario"
+	// var nameTwo = "Iseoluwa"
+	// var nameThree string
+
+	// fmt.Println(nameOne, nameTwo, nameThree)
+
+	// nameOne = "peach"
+	// nameThree = "Peter"
+
+	// fmt.Println(nameOne, nameTwo, nameThree)
+
+	// nameFour := "Victor"
+
+	// fmt.Println(nameOne, nameTwo, nameThree, nameFour)
+
+	// ints
+	// var ageOne int = 3
+	// var ageTwo = 20
+
+	// ageThree := ageOne + ageTwo
+
+	// fmt.Println(ageOne, ageTwo, ageThree)
+
+	// bits and memory
+	// var numOne int8 = 40
+	// var numTwo int8 = -128
+	// numThree uint8 := -100
+	// fmt.Println(numOne, numTwo)
+
+LESSON 2
+
+Difference between Println and Print. Println does not need a line breaker to have a full sentence in a single line
+but Print needs a line breaker to have a full sentence in a single line (\n).
+
+// Printf (formatted strings)
+	fmt.Printf("My name is %v, I am %v years old \n", name, age)
+	fmt.Printf("you scored %0.2f points \n", 43.546)
+
+	// Sprintf (save formatted strings)
+	var str = fmt.Sprintf("My name is %v, I am %v years old \n", name, age)
+	fmt.Println(str)
+
+LESSON 3
