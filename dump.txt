@@ -55,3 +55,32 @@ Also, to check the length of an array, we use len(), to check the length of an a
 SLICE
 I am beginning to learn how slices are used where they are used to add or remove items from an array. Slices often use arrays under the hood.
 Using the "append" function adds an item to the end of an array.
+
+code snippet: var ages [3]int = [3]int{1, 2, 3}
+	
+	fmt.Println(ages, len(ages))
+
+	//  Slices
+	var scores = []int{1, 2, 3, 4, 5}
+	scores = append(scores, 8)
+
+	fmt.Println(scores, len(scores))
+
+	// Slice ranges
+	words := [6]string{"bells", "shoes", "fan", "cloth", "legs"}
+	rangeOne := words[3:5]
+	// Result is [cloth legs]
+	rangeOne = words[2:5]
+	// Result is [fan legs]
+	
+	fmt.Println(rangeOne)
+
+LESSON 4
+
+In this lesson, I am learning on packages. Here, I am able to install the correct go package because I have been making mistakes on the installation correctly before.
+However, I have achieved the perfect installation. Also, I am learning about using the function Contains() to search if a string is within a string. This gives a result of a boolean property though.
+The Contains() property accepts two arguments. The first argument is the variable name. While the second is the property to find
+
+Another is ReplaceAll() which is used to replace property names. It takes in three arguments; var name, the old, the new.
+Another is ToUpper()... You know that already. Yes yes to uppercase.
+Another is Index(), which is used to find the index of a particular string or number. Mostly the position of the first one.
