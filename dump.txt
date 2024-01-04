@@ -84,3 +84,22 @@ The Contains() property accepts two arguments. The first argument is the variabl
 Another is ReplaceAll() which is used to replace property names. It takes in three arguments; var name, the old, the new.
 Another is ToUpper()... You know that already. Yes yes to uppercase.
 Another is Index(), which is used to find the index of a particular string or number. Mostly the position of the first one.
+Another is Split(), which is used to separate the strings.
+
+Also, we have the Sorts() property, which is used to arrange the integers or strings in an array.
+Along with the SearchStrings() property to search for the location of a sorted variable. This is quite related to Contains() and Index().
+
+snippets:
+// greeting := "Hello, world!"
+
+	// fmt.Println(strings.Split(greeting, "l"))
+
+	// ages := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+
+	// sort.Ints(ages)
+	// fmt.Println(ages)
+
+	// index := sort.SearchInts(ages, 30)
+	// fmt.Println(index)
+
+LESSON 5: LOOPS
